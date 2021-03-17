@@ -12,7 +12,6 @@ const HomeScreen = ({ navigation }) => {
         onPress={() => navigation.navigate("Components")}
         title="Go to Components Demo"
       />
-      <Button title="hello" onPress={() => console.log("arm twisted")} />
       <Button
         title="Go to List Demo"
         onPress={() => navigation.navigate("List")}
